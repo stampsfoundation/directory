@@ -2,7 +2,7 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "stamps-directory",
+      "name": "books",
       "path": ["data/books.csv"],
       "profile": "tabular-data-resource",
       "schema": {
@@ -120,7 +120,7 @@
       }
     },
     {
-      "name": "countries",
+      "name": "websites",
       "path": "data/websites.csv",
       "profile": "tabular-data-resource",
       "schema": {
@@ -149,7 +149,7 @@
       }
     }
   ],
-  "name": "directory",
+  "name": "stamps-directory",
   "title": "Directory of ..",
   "homepage": "https://stamps.foundation/directory",
   "contributors": [
