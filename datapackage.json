@@ -1,0 +1,168 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "stamps-directory",
+      "path": ["data/books.csv"],
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Title",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Author",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Publisher",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Edition",
+            "type": "string",
+            "format": "any"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Topics",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Summary",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "ISBN",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "entities",
+      "path": ["data/organisations.csv", "data/places.csv", "data/traders.csv"],
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Name",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Website",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Email",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Phone",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Street1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Street2",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "City",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "State",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Postcode",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Lat",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Lng",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "countries",
+      "path": "data/websites.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Name",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Url",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Topics",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Summary",
+            "type": "year",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "directory",
+  "title": "Directory of ...",
+  "homepage": "https://stamps.foundation/directory",
+  "contributors": [
+    {
+      "title": "Sharad Kumar",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ]
+}
